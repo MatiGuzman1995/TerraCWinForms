@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TerraCWinForms
 {
-    public partial class Form1 : Form
+    public partial class FormProyectos : Form
     {
-        public Form1()
+        public FormProyectos()
         {
             InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
